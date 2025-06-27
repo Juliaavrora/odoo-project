@@ -4,9 +4,6 @@
     'summary': 'Override loyalty grant with customer cashback rate',
     'category': 'Point of Sale',
     'depends': ['point_of_sale'],
-    'data': [
-        'views/assets.xml',
-    ],
     'assets': {
         'point_of_sale.assets': [
             '/pos_cashback/static/src/js/loyalty_cashback.js',
